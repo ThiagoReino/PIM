@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<estados>
+  <uf name='AC'/>
+  <uf name='AL'/>
+  <uf name='AP'/>
+  <uf name='AM'/>
+  <uf name='BA'/>
+  <uf name='CE'/>
+  <uf name='DF'/>
+  <uf name='ES'/>
+  <uf name='GO'/>
+  <uf name='MA'/>
+  <uf name='MT'/>
+  <uf name='MS'/>
+  <uf name='MG'/>
+  <uf name='PA'/>
+  <uf name='PB'/>
+  <uf name='PR'/>
+  <uf name='PE'/>
+  <uf name='PI'/>
+  <uf name='RJ'/>
+  <uf name='RN'/>
+  <uf name='RS'/>
+  <uf name='RO'/>
+  <uf name='RR'/>
+  <uf name='SC'/>
+  <uf name='SP'/>
+  <uf name='SE'/>
+  <uf name='TO'/>
+</estados>

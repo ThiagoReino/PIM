@@ -1,0 +1,121 @@
+﻿body {
+    background-color: #e9edf7;
+    margin: 0;
+}
+
+.linhaCinza {
+    color: gray;
+}
+
+.banner {
+    background-color: #333;
+    height: 150px;
+    padding: 30px 70px 30px 70px;
+}
+
+    .banner h1 {
+        float: left;
+        margin: 0;
+    }
+
+    .banner h2 {
+        color: white;
+        font-family: "Helvetica Neue", sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .banner ul {
+        margin: 0;
+    }
+
+    .banner nav {
+        float: right;
+        position: relative;
+        top: 30px;
+    }
+
+#copyright a {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#copyright p {
+    color: #333;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+#copyright a img {
+    width: 150px;
+}
+
+#centropagina {
+    padding-bottom: 60px;
+    margin-top: 550px;
+}
+
+
+
+#tela-login table {
+    width: 15%;
+}
+
+
+#erro {
+    text-align: center;
+    top: 60px;
+    position: relative;
+}
+
+clear {
+    clear: both;
+}
+
+.content {
+    background-color: #e9edf7;
+    border: 1px solid rgb(254, 254, 254);
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-height: 600px;
+    clear: both;
+}
+
+.menuDrop ul{
+    margin:0px;
+    padding: 0px;
+    list-style:none;
+}
+
+.menuDrop ul li{
+    float:left;
+    width: 200px;
+    height: 40px;
+    background-color: #333;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.menuDrop ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.menuDrop ul li a:hover{
+    background-color: green;
+}
+
+.menuDrop ul li ul li{
+    display: none;
+}
+
+.menuDrop ul li:hover ul li{
+    display: block;
+}

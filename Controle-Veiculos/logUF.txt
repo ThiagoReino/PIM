@@ -1,0 +1,36 @@
+Data/Hora5/26/2019 6:37:55 PM
+System.Xml.XmlException: There are multiple root elements. Line 8, position 2.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlReader.ReadEndElement()
+   at System.Data.DataSet.ReadEndElement(XmlReader reader)
+   at System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   at System.Data.DataSet.ReadXml(String fileName)
+   at Controle_Veiculos.frmVeiculo.cbxMarca_Click(Object sender, EventArgs e) in c:\Users\Administrador\Desktop\Controle-Veiculos_novo_22052019\Controle-Veiculos\Classes\View\Veiculo.cs:line 76
+Data/Hora5/26/2019 6:37:58 PM
+System.Xml.XmlException: There are multiple root elements. Line 8, position 2.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlReader.ReadEndElement()
+   at System.Data.DataSet.ReadEndElement(XmlReader reader)
+   at System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   at System.Data.DataSet.ReadXml(String fileName)
+   at Controle_Veiculos.frmVeiculo.cbxMarca_Click(Object sender, EventArgs e) in c:\Users\Administrador\Desktop\Controle-Veiculos_novo_22052019\Controle-Veiculos\Classes\View\Veiculo.cs:line 76
+Data/Hora5/26/2019 6:38:35 PM
+System.Xml.XmlException: There are multiple root elements. Line 8, position 2.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlReader.ReadEndElement()
+   at System.Data.DataSet.ReadEndElement(XmlReader reader)
+   at System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   at System.Data.DataSet.ReadXml(String fileName)
+   at Controle_Veiculos.frmVeiculo.cbxMarca_Click(Object sender, EventArgs e) in c:\Users\Administrador\Desktop\Controle-Veiculos_novo_22052019\Controle-Veiculos\Classes\View\Veiculo.cs:line 76

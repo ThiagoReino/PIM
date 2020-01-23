@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<carro>
+  <modelos>
+    <id>10</id>
+    <ma name='FIAT'/>
+    <ma name='UNO'/>
+    <ma name='PALIO'/>
+  </modelos>
+  <marca>
+    <id>20</id>
+    <mo name='CHEVROLET'/>
+    <mo name='CELTA'/>
+    <mo name='PRISMA'/>
+  </marca>
+</carro>
+
+

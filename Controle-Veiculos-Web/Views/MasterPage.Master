@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Controle_Veiculos_Web.Views.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+
+    <link href="../Content/Css/w3.css" rel="stylesheet" />
+    <script src="../Scripts/JS/jquery-3.4.1.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="w3-container">
+            <h2>RodoSystem - Gerenciamento de Veiculos</h2>
+            <div class="w3-bar w3-light-grey">
+                <div class="w3-dropdown-hover">
+                    <button class="w3-button">CADASTROS</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <a href="#" class="w3-bar-item w3-button" onclick="document.getElementById('ModalMotorista').style.display='block'">MOTORISTA</a>
+                        <a href="#" class="w3-bar-item w3-button">VEICULO</a>
+                        <a href="#" class="w3-bar-item w3-button">FORNECEDOR</a>
+                        <a href="#" class="w3-bar-item w3-button" onclick="document.getElementById('ModalGrupoProdutos').style.display='block'">GRUPO DE PRODUTOS</a>
+                    </div>
+                </div>
+                <a href="#" class="w3-bar-item w3-button">OPERACOES</a>
+                <a href="Logon.aspx" class="w3-bar-item w3-button">SAIR</a>
+            </div>
+            <div class="w3-container">
+                <img src="../Imagem/FundoMarca.jpg" class="w3-round" alt="Norway" style="width: 100%; max-height: -webkit-fill-available;">
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div id="ModalGrupoProdutos" class="w3-modal">
+            <div class="w3-modal-content w3-border w3-light-gray">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('ModalGrupoProdutos').style.display='none'"
+                        class="w3-button w3-display-topright">&times;</span>
+                    <div class="w3-row">
+                        <div class="w3-half w3-container">
+                            <table class="w3-table w3-half w3-right">
+                                <tr>
+                                    <th>Codigo:
+                                        <asp:TextBox ID="TextBox1" runat="server" class="w3-input w3-border" disabled></asp:TextBox>
+                                    </th>
+                                </tr>
+                                Codigo:</>
+                            </table>
+                        </div>
+                        <div class="w3-half w3-container">
+                            <asp:TextBox ID="EDITCODIGO" runat="server" class="w3-input w3-border" disabled></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-third w3-container">
+                            <div class="">Grupo:</div>
+                        </div>
+                        <div class="w3-twothird w3-container">
+                            <asp:TextBox ID="EDITDESCRICAO" runat="server" class="w3-input w3-border"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="w3-center">
+                        <asp:Button ID="BOTAOSALVARGRUPO" runat="server" Text="Salvar" OnClick="Button1_Click" class="w3-button w3-light-gray w3-border" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ModalMotorista" class="w3-modal">
+            <div class="w3-modal-content w3-border w3-light-gray">
+                <span onclick="document.getElementById('ModalMotorista').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <table class="w3-table">
+                    <tr>
+                        <th>Codigo:
+                        </th>
+                        <th>
+                            <asp:TextBox ID="EDITMOTORISTACODIGO" runat="server" class="w3-input w3-border"></asp:TextBox>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
